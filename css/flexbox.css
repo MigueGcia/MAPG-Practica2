@@ -3,9 +3,14 @@ body{
     padding: 0;
 }
 
+nav{
+    height: 13vh;
+    display: flex;
+    background-color: chocolate;
+}
+
 .container{
     width: 100%;
-    height: 60px;
     background-color: orange;
     display: flex;
     flex-direction: row;
@@ -29,4 +34,30 @@ body{
     border-style: solid;
     border-color: aquamarine;
     border-width: 1px;
+}
+
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.noticias{
+    width: 75%;
+    background: azure;
+}
+
+.opciones{
+    width: 25%;
+    background: rebeccapurple;
+}
+
+.piepagina{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
 }
